@@ -3,3 +3,12 @@
 html{
     scroll-behavior: smooth;
 }
+
+
+.title{
+    text-align: center;
+    color: rgb(194, 144, 241);
+    background-color: rgb(82, 30, 87);
+    padding: 20px;
+
+}
