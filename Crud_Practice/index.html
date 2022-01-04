@@ -19,9 +19,6 @@
         <form action="javascript:void(0);" method="POST" onsubmit="app.Add()">
             <input type="text" id="add-todo" placeholder="Add list item">
             <input type="submit" value="Add" class="btn btn-primary">
-
-
-
         </form>
 
             <p>You have:</p>
@@ -33,9 +30,16 @@
                         <h3>To-Do</h3>
                     </th>
                 </tr>
+                <tbody id="tasks">
+
+                </tbody>
             </table>
+    </div>
+
+    <div id="edit-box" role="aria-hidden">
 
     </div>
+
 
 
 </body>
