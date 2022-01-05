@@ -18,3 +18,10 @@ html{
     margin-top: 20px;
 }
 
+input[type='submit'], button, [aria-label]{
+    cursor: pointer;
+}
+
+#edit-box{
+    display: none;
+}
