@@ -24,3 +24,7 @@ var app = new fucntion(){
 }
 
 app.FetchAll();
+
+function CloseInput(){
+    document.getElementById('edit-box').style.display = 'none';
+};
