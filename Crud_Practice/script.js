@@ -3,7 +3,14 @@ var app = new fucntion(){
     this.tasks=[]
 
     this.FetchAll = function(){
+        var data='';
 
+        if(this.tasks.length>0){
+            for(i=0;i<this.tasks.length;i++){
+                data+="<tr>";
+                data+="<td>"+(i+1)+". "+this.task[i]+"</td>";
+            }
+        }
     };
 
     this.Add = function(){
