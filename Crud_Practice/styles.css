@@ -24,4 +24,7 @@ input[type='submit'], button, [aria-label]{
 
 #edit-box{
     display: none;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
 }
